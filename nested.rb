@@ -105,7 +105,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-    
+#Update what Alan_Kay is known for & return the updated hash   
 programmer_hash[:alan_kay][:known_for] = "GUI"
 programmer_hash
 end
